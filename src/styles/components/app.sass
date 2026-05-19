@@ -1,16 +1,99 @@
-@use '../variables'
+#portfolio-clean
+  background-color: #ffffff
+  color: #1a1a1a
+  padding: 25px 20px
+  max-width: 800px
+  margin: 0 auto
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif
+  line-height: 1.5
+  min-height: 100vh
 
-#portfolio
-    display: flex
-    flex-wrap: wrap
-    padding: 3rem
-    gap: 3rem
+  header
+    border-bottom: 3px solid #0056b3
+    padding-bottom: 15px
+    margin-bottom: 25px
 
     h1
-        width: 100%
-        color: variables.$text-color
-        font-size: 5rem
-        margin-bottom: 4rem
-        background: variables.$gradient
-        -webkit-background-clip: text
-        -webkit-text-fill-color: transparent
+      font-size: 26px
+      color: #0056b3
+      margin: 0 0 5px 0
+      font-weight: 800
+      letter-spacing: -0.5px
+
+    .subtitle
+      font-weight: 600
+      font-size: 15px
+      color: #495057
+      margin: 0 0 15px 0
+
+    .contact-grid
+      display: flex
+      flex-direction: column
+      gap: 8px
+      font-size: 14px
+      color: #343a40
+      
+      svg
+        color: #0056b3
+        margin-right: 8px
+
+  section
+    margin-bottom: 25px
+
+    h2
+      color: #0056b3
+      font-size: 18px
+      font-weight: 700
+      border-bottom: 1px solid #dee2e6
+      padding-bottom: 5px
+      margin: 0 0 10px 0
+
+    p, ul
+      font-size: 14.5px
+      color: #212529
+      margin: 0
+
+    ul
+      padding-left: 20px
+
+    li
+      margin-bottom: 5px
+      strong
+        color: #000000
+
+    .resume-text
+      text-align: justify
+
+    .skills-list, .projects-list
+      display: flex
+      flex-direction: column
+      gap: 6px
+      
+      svg
+        color: #0056b3
+        margin-right: 5px
+
+    .job-block
+      margin-bottom: 18px
+
+      .job-header
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        margin-bottom: 2px
+
+        .company
+          font-size: 15px
+          font-weight: 700
+          color: #000000
+
+        .date
+          font-size: 14px
+          font-weight: 600
+          color: #495057
+
+      .role
+        font-size: 14px
+        color: #495057
+        margin-bottom: 5px
+        font-style: italic
