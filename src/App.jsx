@@ -5,10 +5,22 @@ import "./styles/components/app.sass";
 function App() {
   return (
     <div id="portfolio-clean">
-      
+
       <header>
         <h1>JOSÉ HENRIQUE PALMEIRA JARDIM</h1>
         <p className="subtitle">Candidato à Área de Tecnologia | Ciência de Dados | TechOps</p>
+        
+        <div className="download-container" style={{ margin: "20px 0", textAlign: "center" }}>
+          <a 
+            href="/curriculum_joseHenriqueJardim.pdf" 
+            download="Curriculo_Jose_Henrique.pdf"
+            className="btn-download"
+            style={{ backgroundColor: "#007bff", color: "white", padding: "10px 20px", textDecoration: "none", borderRadius: "5px", fontWeight: "bold" }}
+          >
+            Baixar Currículo em PDF
+          </a>
+        </div>
+
         <div className="contact-grid">
           <div><FaMapMarkerAlt /> Rio de Janeiro - RJ</div>
           <div><FaPhone /> (21) 97568-2548</div>
@@ -46,7 +58,7 @@ function App() {
 
       <section>
         <h2>EXPERIÊNCIA PROFISSIONAL</h2>
-        
+
         <div className="job-block">
           <div className="job-header">
             <span className="company">Beep Saúde</span>
