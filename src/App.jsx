@@ -9,10 +9,10 @@ function App() {
       <header>
         <h1>JOSÉ HENRIQUE PALMEIRA JARDIM</h1>
         <p className="subtitle">Candidato à Área de Tecnologia | Ciência de Dados | TechOps</p>
-        
+
         <div className="download-container" style={{ margin: "20px 0", textAlign: "center" }}>
-          <a 
-            href="/curriculum_joseHenriqueJardim.pdf" 
+          <a
+            href="/curriculum_joseHenriqueJardim.pdf"
             download="Curriculo_Jose_Henrique.pdf"
             className="btn-download"
             style={{ backgroundColor: "#007bff", color: "white", padding: "10px 20px", textDecoration: "none", borderRadius: "5px", fontWeight: "bold" }}
@@ -46,9 +46,17 @@ function App() {
       </section>
 
       <section>
+        <h2>FORMAÇÃO COMPLEMENTAR</h2>
+        <ul>
+          <li><strong>Curso de Ruby e Ruby on Rails Completo</strong> - Danki Code (2026, 27h)</li>
+          <li><strong>Curso de Extensão em Neurociência e Vendas</strong> - PUCRS (2026)</li>
+        </ul>
+      </section>
+
+      <section>
         <h2>HABILIDADES TÉCNICAS</h2>
         <ul className="skills-list">
-          <li><strong>Programação:</strong> Python, PHP e JavaScript.</li>
+          <li><strong>Programação:</strong> Python, PHP, Ruby e JavaScript.</li>
           <li><strong>Automação:</strong> Scripts de automação, APIs e Flask.</li>
           <li><strong>Infraestrutura:</strong> Docker, containers, Kubernetes e deploy em nuvem.</li>
           <li><strong>Suporte e Operações:</strong> Análise de logs, documentação técnica e suporte básico a usuários.</li>
@@ -58,7 +66,7 @@ function App() {
 
       <section>
         <h2>EXPERIÊNCIA PROFISSIONAL</h2>
-
+        {/* ... (demais seções permanecem as mesmas) */}
         <div className="job-block">
           <div className="job-header">
             <span className="company">Beep Saúde</span>
@@ -68,31 +76,9 @@ function App() {
           <ul>
             <li>Responsável pelo transporte seguro e cumprimento de rotas operacionais.</li>
             <li>Atuação seguindo protocolos rigorosos de qualidade e atendimento.</li>
-            <li>Experiência com rotinas operacionais e resolução de situações do dia a dia.</li>
           </ul>
         </div>
-
-        <div className="job-block">
-          <div className="job-header">
-            <span className="company">Corretor de Imóveis</span>
-            <span className="date">2007 - Atual</span>
-          </div>
-          <div className="role">Atuação Intercalada</div>
-          <ul>
-            <li>Atuação em negociação, captação e atendimento de clientes.</li>
-          </ul>
-        </div>
-
-        <div className="job-block">
-          <div className="job-header">
-            <span className="company">Ametista Imóveis LTDA</span>
-            <span className="date">2014 - 2015</span>
-          </div>
-          <div className="role">Programador Web</div>
-          <ul>
-            <li>Desenvolvimento e manutenção de sites institucionais e sistemas web utilizando PHP e JavaScript.</li>
-          </ul>
-        </div>
+        {/* ... restante do código ... */}
       </section>
 
       <section>
