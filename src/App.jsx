@@ -48,10 +48,12 @@ function App() {
       <section>
         <h2>FORMAÇÃO COMPLEMENTAR</h2>
         <ul>
+          <li><strong>Curso NodeJS Completo</strong> - Danki Code (2026, 8h)</li>
+          <li><strong>Curso ReactJS Completo</strong> - Danki Code (2026, 4h)</li>
           <li><strong>Curso JavaScript Completo</strong> - Danki Code (2026, 14h)</li>
           <li><strong>Curso Introdução ao n8n</strong> - Danki Code (2026, 1h)</li>
           <li><strong>Curso de Ruby e Ruby on Rails Completo</strong> - Danki Code (2026, 27h)</li>
-          <li><strong>Curso de Extensão em Neurociência e Vendas</strong> - PUCRS (2026)</li>
+          <li><strong>Curso de Extensão em Neurociência e Vendas</strong> - PUCRS (2026, 10h)</li>
         </ul>
       </section>
 
