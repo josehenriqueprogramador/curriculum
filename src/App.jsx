@@ -48,19 +48,18 @@ function App() {
       <section>
         <h2>FORMAÇÃO COMPLEMENTAR</h2>
         <ul>
-          <li><strong>Curso NodeJS Completo</strong> - Danki Code (2026, 8h)</li>
-          <li><strong>Curso ReactJS Completo</strong> - Danki Code (2026, 4h)</li>
+          <li><strong>Power BI - Módulo I</strong> - Nave do Conhecimento / Secretaria Municipal de Ciência, Tecnologia e Inovação do Rio de Janeiro (2026, 18h)[span_0](start_span)[span_0](end_span)</li>
           <li><strong>Curso JavaScript Completo</strong> - Danki Code (2026, 14h)</li>
           <li><strong>Curso Introdução ao n8n</strong> - Danki Code (2026, 1h)</li>
           <li><strong>Curso de Ruby e Ruby on Rails Completo</strong> - Danki Code (2026, 27h)</li>
-          <li><strong>Curso de Extensão em Neurociência e Vendas</strong> - PUCRS (2026, 10h)</li>
+          <li><strong>Curso de Extensão em Neurociência e Vendas</strong> - PUCRS (2026)</li>
         </ul>
       </section>
 
       <section>
         <h2>HABILIDADES TÉCNICAS</h2>
         <ul className="skills-list">
-          <li><strong>Programação:</strong> Python, PHP, JavaScript e Ruby.</li>
+          <li><strong>Programação & Análise:</strong> Python, PHP, JavaScript, Ruby e Power BI.</li>
           <li><strong>Automação:</strong> Scripts de automação, APIs, n8n e Flask.</li>
           <li><strong>Infraestrutura:</strong> Docker, containers, Kubernetes e deploy em nuvem.</li>
           <li><strong>Suporte e Operações:</strong> Análise de logs, documentação técnica e suporte básico a usuários.</li>
