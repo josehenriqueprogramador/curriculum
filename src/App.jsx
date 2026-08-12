@@ -48,7 +48,7 @@ function App() {
       <section>
         <h2>FORMAÇÃO COMPLEMENTAR</h2>
         <ul>
-          <li><strong>Power BI - Módulo I</strong> - Nave do Conhecimento / Secretaria Municipal de Ciência, Tecnologia e Inovação do Rio de Janeiro (2026, 18h)[span_0](start_span)[span_0](end_span)</li>
+          <li><strong>Power BI - Módulo I</strong> - Nave do Conhecimento / Secretaria Municipal de Ciência, Tecnologia e Inovação do Rio de Janeiro (2026, 18h)</li>
           <li><strong>Curso JavaScript Completo</strong> - Danki Code (2026, 14h)</li>
           <li><strong>Curso Introdução ao n8n</strong> - Danki Code (2026, 1h)</li>
           <li><strong>Curso de Ruby e Ruby on Rails Completo</strong> - Danki Code (2026, 27h)</li>
